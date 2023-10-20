@@ -1,0 +1,3 @@
+<Layer Type = "ActorFrame" Name = "BG"><children>
+    <Layer File = "bg.png" Name = "bg" />
+</children></Layer>
