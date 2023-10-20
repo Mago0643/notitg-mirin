@@ -35,3 +35,5 @@ end
 -- your code goes here here:
 initMods();
 setdefault {2, 'xmod', 100, 'stealthpastreceptors', 100, 'dizzyholds'}
+
+bg:xywh(scx,scy,sw,sh);
