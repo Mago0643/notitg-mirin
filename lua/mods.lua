@@ -6,6 +6,8 @@ if not P1 or not P2 then
 end
 foreground:SetFarDist(10000)
 
+require("modhelper");
+
 -- player proxies
 for pn = 1, #PP do
 	PP[pn]:SetTarget(P[pn])
@@ -31,4 +33,5 @@ for pn = 1, 2 do
 end
 
 -- your code goes here here:
-
+initMods();
+setdefault {2, 'xmod', 100, 'stealthpastreceptors', 100, 'dizzyholds'}
