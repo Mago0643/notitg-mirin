@@ -1,12 +1,8 @@
 if not P1 or not P2 then
 	SCREENMAN:SystemMessage("Two Player Mode Required") -- Report the error to the user
 	GAMESTATE:FinishSong() -- Force end the song
-	foreground:hidden(1) -- Hide the foreground to disable update loop
 	return
 end
-foreground:SetFarDist(10000)
-
-require("modhelper");
 
 -- player proxies
 for pn = 1, #PP do
@@ -35,5 +31,3 @@ end
 -- your code goes here here:
 initMods();
 setdefault {2, 'xmod', 100, 'stealthpastreceptors', 100, 'dizzyholds'}
-
-bg:xywh(scx,scy,sw,sh);

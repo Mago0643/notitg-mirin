@@ -17,6 +17,7 @@
 		loadfile(xero.dir..'template/sort.lua')()
 		loadfile(xero.dir..'template/ease.lua')()
 		loadfile(xero.dir..'template/template.lua')()
+		loadfile(xero.dir..'lua/util.lua')()
 
 		-- Needed by StepMania, in order to not kill lua mods early
 		self:sleep(9e9)
